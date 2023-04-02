@@ -1,0 +1,74 @@
+/* the whole HTML settings*/
+:root {
+    background-color:darkolivegreen;
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: aliceblue;
+    margin-bottom: 5rem;
+}
+
+.cnt {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.flex-colum {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Button */
+.btn {
+    background-color:greenyellow;
+    font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border:0.1rem solid black;
+    margin-bottom: 1rem;
+    color: rgb(29, 116, 188);
+}
+
+form {
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 1.9rem;
+    width: 19rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
